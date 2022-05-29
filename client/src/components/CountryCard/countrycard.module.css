@@ -1,0 +1,41 @@
+.countryCard {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f9f871;
+    border-radius: 1rem;
+    background-color: #EEE8A9;
+    padding: 1rem;
+    margin: 2rem 2rem 0 2rem;
+    width: 15rem;
+    align-items: center;
+}
+.flag{
+    width: 10rem;
+    max-height: 7rem;
+    border-radius: 0.5rem;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.countryName{
+    justify-content: center;
+    margin-top: 0.3rem;
+    font-weight: bold;
+}
+.countryContinent{
+    font-style: italic;
+}
+
+@media screen and (max-width: 412px){
+    .countryCard {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #f9f871;
+        border-radius: 1rem;
+        background-color: #EEE8A9;
+        width: 10rem;
+        align-items: center;
+    }
+}

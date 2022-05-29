@@ -1,0 +1,88 @@
+.countryPage{
+    background-color: #ffffdc;
+    height: 100vh;
+}
+
+.countrySection{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.countryInfo{
+    align-self: center;
+}
+
+.countryInfoLabel{
+    text-decoration: underline;
+}
+.flag{
+    height: 20rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: 0 5rem;
+}
+
+.activitySection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+.activities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.activity{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: max-content;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.activityTitle {
+    align-self: center;
+}
+.activityName{
+    align-self: center;
+}
+
+@media screen and (max-width: 812px){
+    .countrySection{
+        display: flex;
+        justify-content: center;
+        padding: 3rem;
+    }
+    .flag{
+        width: 20rem;
+        height: 13rem;
+        border: 1px solid black;
+        border-radius: 2rem;
+        margin: 0 5rem;
+    }
+}
+
+@media screen and (max-width: 412px){
+    .countryPage{
+        background-color: #ffffdc;
+        height: 200vh;
+    }
+    .countrySection{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column-reverse;
+
+    }
+    .flag{
+        align-self: center;
+        width: 20rem;
+        height: 10rem;
+        border: 1px solid black;
+        border-radius: 2rem;
+        margin: 0 5rem;
+    }
+}

@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    background-color: #F9F871;
+}
+
+.siteLogo{
+    width: 3rem;
+    margin: 1rem 1rem;
+}
+
+.siteName{
+    margin-top: 0.8rem;
+    color: black;
+    font-size: 2rem;
+}
+
+.rightPart{
+    margin: auto 3rem auto auto;
+}
+
+.navItem{
+    font-size: 1.5rem;
+    color: black;
+    font-style: italic;
+}
+
+.navLink{
+    text-decoration: none;
+}
+
+.active{
+    display: none;
+}
+
+@media screen and (max-width: 412px){
+    .navItem{
+        font-size: 1rem;
+        color: black;
+        font-style: italic;
+    }
+}

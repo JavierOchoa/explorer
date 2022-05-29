@@ -1,0 +1,198 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formBody{
+    height: 100vh;
+    background-color: #F9F871;
+}
+.formContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.visibleForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 2rem 5rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+    width: 40rem;
+}
+
+.formTitle{
+    font-style: italic;
+    align-self: center;
+}
+
+.labelTitle{
+    margin: 2rem 0 1rem;
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.inputField{
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    width: 40rem;
+}
+
+.inputFieldRed{
+    padding: 0.5rem;
+    border: 1px solid red;
+    border-radius: 0.5rem;
+}
+
+.countriesAdded ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+.countriesAdded ul li{
+    display: inline;
+    padding: 0 0.5rem;
+    list-style-type:none;
+    cursor: pointer;
+    color: black;
+}
+
+.countriesAdded ul li:hover{
+    color: red;
+}
+
+.rangeSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.ranged{
+    align-self: center;
+}
+
+.rangedRed{
+    align-self: center;
+    color: red;
+}
+
+.rangeSlider {
+    width: 20rem;
+    align-self: center;
+}
+
+.submitButton{
+    margin-top: 5rem;
+    width: fit-content;
+    padding: 1rem;
+    cursor: pointer;
+    align-self: center;
+    background-color: #EEE8A9;
+    border: 1px solid black;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.errorLabel{
+    color: red;
+    font-size: 0.7rem;
+}
+
+@media screen and (max-width: 1280px){
+    .form{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        padding: 2rem 5rem;
+        border: 1px solid white;
+        border-radius: 2rem;
+        width: 40rem;
+    }
+    .labelTitle{
+        margin: 2rem 0 0.5rem;
+        font-size: 1rem;
+        align-self: center;
+    }
+
+    .submitButton{
+        margin-top: 1.5rem;
+        width: fit-content;
+        padding: 1rem;
+        cursor: pointer;
+        align-self: center;
+        background-color: #EEE8A9;
+        border: 1px solid black;
+        border-radius: 1rem;
+        font-size: 1rem;
+        font-style: italic;
+    }
+}
+
+@media screen and (max-width: 812px){
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        padding: 2rem 5rem;
+        border: 1px solid white;
+        border-radius: 2rem;
+        width: 30rem;
+    }
+    .inputField{
+        padding: 0.5rem;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+        width: 30rem;
+    }
+    .labelTitle{
+        margin: 2rem 0 0.5rem;
+        font-size: 1rem;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 412px){
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        padding: 2rem 5rem;
+        border: 1px solid white;
+        border-radius: 2rem;
+        width: 15rem;
+    }
+    .formTitle{
+        font-style: italic;
+        align-self: center;
+        font-size: 1.5rem;
+    }
+    .inputField{
+        padding: 0.5rem;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+        width: 18rem;
+    }
+    .labelTitle{
+        margin: 2rem 0 0.5rem;
+        font-size: 1rem;
+        align-self: center;
+    }
+}

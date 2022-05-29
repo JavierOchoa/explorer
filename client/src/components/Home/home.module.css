@@ -1,0 +1,272 @@
+.headContent{
+    background-color: #F9F871;
+    height: 27rem;
+}
+.content{
+    display: flex;
+}
+.contentImage{
+    width: 40rem;
+    margin-left: 4.5rem;
+}
+.headContentBody{
+    margin-top: 1rem;
+    margin-left: 4rem;
+    align-self: center;
+    width: 66rem;
+}
+.headContentTitle{
+    font-style: italic;
+    font-size: 3.5rem;
+}
+.headContentText{
+    font-size: 1.5rem;
+    margin: 0.5rem 0.4rem;
+}
+.searchBox{
+    padding: 0.5rem;
+    height: 1.5rem;
+    width: 20rem;
+    border: 1px solid #3C4856;
+    border-radius:0.5rem;
+}
+.countrySection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.homeBody{
+    margin-top: 1.5rem;
+}
+.paginado {
+    display: flex;
+    justify-content: center;
+}
+.paginado ul li {
+    display: inline;
+    padding: 0.5rem;
+    margin: 0.1rem;
+    list-style-type:none;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+.active {
+    background-color: #EEE8A9;
+    color: black;
+}
+.inactive{
+    background-color: #fcfbeb;
+}
+.filterOptions{
+    display: flex;
+    margin: 1.5rem 0.2rem 0 0;
+}
+.filterTitle{
+    margin: auto 0 auto 3rem;
+    font-style: italic;
+}
+.orderButton{
+    border: 1px solid #3C4856;
+    border-radius:0.5rem;
+    cursor: pointer;
+    background-color: #EEE8A9;
+    font-size: 1.2rem;
+    margin: 0 0.5rem 0 0.5rem;
+}
+.orderImg{
+    width: 2rem;
+    padding: 0 0.5rem 0 0.5rem;
+}
+.insideOrderButton{
+    display: inline-flex;
+}
+.pressed{
+    border: 3px solid #3C4856;
+    border-radius:0.5rem;
+    cursor: pointer;
+    background-color: #EEE8A9;
+    font-size: 0.9rem;
+}
+
+.paginationButton{
+    border: 1px solid #3C4856;
+    border-radius:0.5rem;
+    cursor: pointer;
+    background-color: #EEE8A9;
+    font-size: 1.2rem;
+    margin: auto 0.5rem auto 0.5rem;
+    padding: 0.2rem;
+    align-self: center;
+}
+
+.hiddenItem {
+    display: none;
+}
+
+@media screen and (max-width: 1280px){
+    .content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contentImage{
+        width: 20rem;
+        align-self: flex-end;
+    }
+    .headContent{
+        background-color: #F9F871;
+        height: fit-content;
+    }
+    .headContentBody{
+        position: absolute;
+        align-self: center;
+        width: 66rem;
+        margin: 1rem 4rem;
+    }
+    .headContentText{
+        font-size: 1.5rem;
+        margin: 0.5rem 0.4rem;
+        text-shadow: 2px 1px 3px #F9F871;
+    }
+    .countrySection{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 810px){
+    .content{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 22rem;
+    }
+    .contentImage{
+        width: 20rem;
+        align-self: flex-end;
+    }
+    .headContent{
+        background-color: #F9F871;
+        height: fit-content;
+    }
+    .headContentBody{
+        position: absolute;
+        align-self: flex-start;
+        width: 45rem;
+        margin: 1rem 2rem;
+    }
+    .headContentTitle{
+        font-style: italic;
+        font-size: 2rem;
+    }
+    .headContentText{
+        font-size: 1.3rem;
+        margin: 0.5rem 0.4rem;
+        text-shadow: 2px 1px 3px #F9F871;
+        width: 35rem;
+    }
+    .countrySection{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .filterTitle{
+        margin: auto 0 auto 0;
+        font-style: italic;
+    }
+    .filterOptions{
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem 0 0 0;
+    }
+    .orderButton{
+        border: 1px solid #3C4856;
+        border-radius:0.5rem;
+        cursor: pointer;
+        background-color: #EEE8A9;
+        font-size: 1.2rem;
+        margin: 0.1rem 0.5rem 0.1rem 0.5rem;
+        width: fit-content;
+    }
+    .pressed{
+        border: 3px solid #3C4856;
+        border-radius:0.5rem;
+        cursor: pointer;
+        background-color: #EEE8A9;
+        font-size: 0.9rem;
+        width: fit-content;
+    }
+    .paginado {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 412px){
+    .content{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 28rem;
+    }
+    .contentImage{
+        width: 12rem;
+        margin-bottom: 1rem;
+    }
+    .headContent{
+        background-color: #F9F871;
+        height: fit-content;
+    }
+    .headContentBody{
+        position: absolute;
+        align-self: center;
+        width: 23rem;
+        margin: 1rem 2rem;
+    }
+    .headContentTitle{
+        font-style: italic;
+        font-size: 2rem;
+    }
+    .headContentText{
+        font-size: 1.3rem;
+        margin: 0.5rem 0.4rem;
+        text-shadow: 2px 1px 3px #F9F871;
+        width: 20rem;
+    }
+    .countrySection{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2rem;
+        /*width: 20rem;*/
+    }
+    .filterTitle{
+        margin: auto 0 auto 0;
+        font-style: italic;
+    }
+    .filterOptions{
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem 0 0 0;
+    }
+    .orderButton{
+        border: 1px solid #3C4856;
+        border-radius:0.5rem;
+        cursor: pointer;
+        background-color: #EEE8A9;
+        font-size: 1.2rem;
+        margin: 0.1rem 0.5rem 0.1rem 0.5rem;
+        width: fit-content;
+    }
+    .pressed{
+        border: 3px solid #3C4856;
+        border-radius:0.5rem;
+        cursor: pointer;
+        background-color: #EEE8A9;
+        font-size: 0.9rem;
+        width: fit-content;
+    }
+
+}
